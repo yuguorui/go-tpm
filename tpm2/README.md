@@ -2,13 +2,13 @@
 
 ## Tests
 
-This library contains unit tests in `github.com/google/go-tpm/tpm2`, which just
+This library contains unit tests in `github.com/yuguorui/go-tpm/tpm2`, which just
 tests that various encoding and error checking functions work correctly. It also
 contains more comprehensive integration tests in
-`github.com/google/go-tpm/tpm2/test`, which run actual commands on a TPM.
+`github.com/yuguorui/go-tpm/tpm2/test`, which run actual commands on a TPM.
 
 By default, these integration tests are run against the
-[`go-tpm-tools`](https://github.com/google/go-tpm-tools)
+[`go-tpm-tools`](https://github.com/yuguorui/go-tpm-tools)
 simulator, which is baesed on the
 [Microsoft Reference TPM2 code](https://github.com/microsoft/ms-tpm-20-ref). To
 run both the unit and integration tests, run (in this directory)
@@ -21,7 +21,7 @@ slightly more complex as the tests often need to be built as a normal user and
 then executed as root. For example,
 ```bash
 # Build the test binary without running it
-go test -c github.com/google/go-tpm/tpm2/test
+go test -c github.com/yuguorui/go-tpm/tpm2/test
 # Execute the test binary as root
 sudo ./test.test --tpm-path=/dev/tpmrm0
 ```

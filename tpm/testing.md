@@ -1,6 +1,6 @@
 # Testing TPM 1.2 Functionality
 
-**TODO(https://github.com/google/go-tpm/issues/91):** Support for testing the TPM 1.2 stack against
+**TODO(https://github.com/yuguorui/go-tpm/issues/91):** Support for testing the TPM 1.2 stack against
 a simulator is a work in progress. Today, it requires several manual steps.
 
 ## Overview
@@ -33,7 +33,7 @@ into it.
 ## Future Improvements
 
 * Add setup logic to the TPM 1.2 tests to take ownership of an unowned TPM under test.
-* Wrap a TPM 1.2 simulator somewhere (possibly in https://github.com/google/go-tpm-tools) and
+* Wrap a TPM 1.2 simulator somewhere (possibly in https://github.com/yuguorui/go-tpm-tools) and
   integrate it into test setup for the TPM 1.2 tests.
 * Resolve issues that necessitated the use of `t.Skip()` in current tests.
   * Either add an informative comment along with a skip when a test fails for an expected reason, or

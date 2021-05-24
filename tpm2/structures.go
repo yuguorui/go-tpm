@@ -25,7 +25,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/yuguorui/go-tpm/tpmutil"
 )
 
 // NVPublic contains the public area of an NV index.
@@ -66,9 +66,9 @@ type Public struct {
 	// When encoding/decoding, one will be picked based on Type.
 
 	// RSAParameters contains both [rsa]parameters and [rsa]unique.
-	RSAParameters       *RSAParams
+	RSAParameters *RSAParams
 	// ECCParameters contains both [ecc]parameters and [ecc]unique.
-	ECCParameters       *ECCParams
+	ECCParameters *ECCParams
 	// SymCipherParameters contains both [sym]parameters and [sym]unique.
 	SymCipherParameters *SymCipherParams
 	// KeyedHashParameters contains both [keyedHash]parameters and [keyedHash]unique.

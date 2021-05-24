@@ -23,7 +23,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/google/go-tpm/tpm"
+	"github.com/yuguorui/go-tpm/tpm"
 )
 
 var (

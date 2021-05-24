@@ -23,8 +23,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/google/go-tpm/tpm2"
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/yuguorui/go-tpm/tpm2"
+	"github.com/yuguorui/go-tpm/tpmutil"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/yuguorui/go-tpm/tpmutil"
 )
 
 var (

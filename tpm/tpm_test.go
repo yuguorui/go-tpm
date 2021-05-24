@@ -25,7 +25,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/go-tpm/tpmutil"
+	"github.com/yuguorui/go-tpm/tpmutil"
 )
 
 var (
